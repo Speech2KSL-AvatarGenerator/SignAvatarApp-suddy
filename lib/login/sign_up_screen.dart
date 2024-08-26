@@ -17,7 +17,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   TextEditingController emailTextController = TextEditingController();
   TextEditingController pwdTextController = TextEditingController();
 
-  Future<bool> signUp(String emailAddress, String password) async {
+  Future<bool> signUp(String nickName,String emailAddress, String password) async {
     try {
       final credential = await FirebaseAuth.instance
           .createUserWithEmailAndPassword(
@@ -30,7 +30,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
       try {
         await FirebaseFirestore.instance.collection("users").add({
           "uid": credential.user?.uid ?? "",
-          "email": credential.user?.email ?? ""
+          "email": credential.user?.email ?? "",
+          "nickname" : nickName,
         });
         return true;
       } catch (e) {
@@ -121,6 +122,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             _formKey.currentState!.save();
 
                             final result = await signUp(
+                              nickNameTextController.text.trim(),
                                 emailTextController.text.trim(),
                                 pwdTextController.text.trim());
                             if (result) {

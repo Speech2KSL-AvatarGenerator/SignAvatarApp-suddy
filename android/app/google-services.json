@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601164812739",
+    "project_id": "suddy-ea5fa",
+    "storage_bucket": "suddy-ea5fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601164812739:android:b647b4cee1a3bbb31c6d76",
+        "android_client_info": {
+          "package_name": "com.suddy.suddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl-8C_vujttbcsxxr3mYCg3IoC3aa2plw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
