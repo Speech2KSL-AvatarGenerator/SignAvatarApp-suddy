@@ -1,6 +1,6 @@
 # SUDDY - 수화 번역 어플리케이션
 
-![SUDDY Logo](./assets/suddy_logo.png) <!-- 로고 이미지를 여기에 추가하세요 -->
+<img src="./assets/splash_3.png" alt="logo" width="200"/>
 
 **SUDDY**는 농인과 청인 간의 의사소통을 원활하게 하기 위해 개발된 수화 번역 어플리케이션입니다. SUDDY는 사용자에게 수화를 번역해주는 서비스를 제공하며, 농인들이 더 쉽게 소통할 수 있도록 지원합니다.
 
