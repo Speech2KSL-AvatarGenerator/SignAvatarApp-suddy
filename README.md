@@ -28,16 +28,17 @@
 ## 스크린샷
 
 ### 스플래시 화면
-![Splash Screen](./markdown_img/splash.png)
+<img src="./markdown_img/splash.png" alt="Splash Screen" width="400"/>
 
 ### 회원가입 및 로그인 화면
-![Login Screen](./markdown_img/login.png)
+<img src="./markdown_img/login.png" alt="Login Screen" width="400"/>
 
 ### 홈 화면
-![Home Screen](./markdown_img/home.png)
+<img src="./markdown_img/home.png" alt="Home Screen" width="400"/>
 
 ### 동영상 구현
-![Adding Screen](./markdown_img/detail.png)
+<img src="./markdown_img/detail.png" alt="Adding Screen" width="400"/>
+
 
 ## 설치 방법
 
