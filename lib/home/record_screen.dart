@@ -105,7 +105,7 @@ class _RecordScreenState extends State<RecordScreen> {
   Future<Uint8List> imageCompressList(Uint8List list) async {
     try {
       var result =
-          await FlutterImageCompress.compressWithList(list, quality: 50);
+      await FlutterImageCompress.compressWithList(list, quality: 50);
       return result;
     } catch (e) {
       print("Image compression error: $e");
@@ -118,6 +118,7 @@ class _RecordScreenState extends State<RecordScreen> {
     if (RegExp(r'^많').hasMatch(word)) return 'many';
     if (RegExp(r'^같').hasMatch(word)) return 'same';
     if (RegExp(r'^오늘').hasMatch(word)) return 'today';
+    if (RegExp(r'^이번').hasMatch(word)) return 'thistime';
     // 다른 단어도 동일하게 처리
     return word;
   }
@@ -371,9 +372,9 @@ class _RecordScreenState extends State<RecordScreen> {
       width: 500,
       child: _videoController!.value.isInitialized
           ? AspectRatio(
-              aspectRatio: _videoController!.value.aspectRatio,
-              child: VideoPlayer(_videoController!),
-            )
+        aspectRatio: _videoController!.value.aspectRatio,
+        child: VideoPlayer(_videoController!),
+      )
           : Center(child: CircularProgressIndicator()),
     );
   }
@@ -465,7 +466,7 @@ class _RecordScreenState extends State<RecordScreen> {
                             color: _isListening ? Colors.red : Colors.blue,
                           ),
                           onPressed:
-                              _isListening ? _stopListening : _startListening,
+                          _isListening ? _stopListening : _startListening,
                         ),
                       ],
                     ),
