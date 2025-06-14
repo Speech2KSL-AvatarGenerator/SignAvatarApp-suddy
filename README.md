@@ -29,16 +29,22 @@
 
 <table>
   <tr>
-    <td align="center"><b>스플래시 화면</b></td>
-    <td align="center"><b>회원가입 및 로그인 화면</b></td>
-    <td align="center"><b>홈 화면</b></td>
-    <td align="center"><b>동영상 구현</b></td>
-  </tr>
-  <tr>
-    <td><img src="./markdown_img/splash.png" alt="Splash Screen" width="200"/></td>
-    <td><img src="./markdown_img/login.png" alt="Login Screen" width="200"/></td>
-    <td><img src="./markdown_img/home.png" alt="Home Screen" width="200"/></td>
-    <td><img src="./markdown_img/detail.png" alt="Adding Screen" width="200"/></td>
+    <td align="center">
+      <img src="./markdown_img/splash.png" alt="Splash Screen" width="200"/><br/>
+      <b>스플래시 화면</b>
+    </td>
+    <td align="center">
+      <img src="./markdown_img/login.png" alt="Login Screen" width="200"/><br/>
+      <b>회원가입 및 로그인 화면</b>
+    </td>
+    <td align="center">
+      <img src="./markdown_img/home.png" alt="Home Screen" width="200"/><br/>
+      <b>홈 화면</b>
+    </td>
+    <td align="center">
+      <img src="./markdown_img/detail.png" alt="Adding Screen" width="200"/><br/>
+      <b>동영상 구현</b>
+    </td>
   </tr>
 </table>
 
